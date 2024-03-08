@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+}
+
+
+/* //custom navbar  */
+
+*::selection {
+  background-color: #fff;
+  color: black;
+}
+
+body::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #878680;
+}
+
+footer li {
+  list-style: none;
+}
+
+/* bg colors */
+.bg-alert {
+  background-color: #F8F7F0;
+}
+
+.bg-nav {
+  background-color: #E4E2D7;
+}
+
+.txt-dark {
+  color: #1F1E17;
+}
+
+.carousel-text {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 5.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hexa {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: -10px !important;
+  text-align: center;
+}
+
+.p-color {
+  color: #878680;
+}
+
+.section-margin {
+  margin: 120px 0px;
+}
+
+.card-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-ex {
+  background-color: #F8F7F0;
+}
+
+.footer-light {
+  background-color: #24231D;
+}
+
+.footer-dark {
+  background-color: #1F1E17;
+}
+
+.blurred-image {
+  filter: blur(3px);
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel-text {
+    font-size: 4rem;
+    line-height: 4.2rem;
+  }
+
+  .hexa {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .carousel-text {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+  }
+
+  .hexa {
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .carousel-text {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .hexa {
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+}
